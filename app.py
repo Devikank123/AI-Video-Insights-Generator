@@ -72,3 +72,24 @@ if st.button("🔎Analyze Video"):
             for a in actions:
                 st.write("✔️",a)
 
+
+
+        # Download button
+        result_text = f"""
+SUMMARY:
+{summary}
+
+KEYWORDS:
+{', '.join(keywords)}
+
+ACTIONS:
+{actions}
+"""
+
+        st.download_button(
+            label="📥 Download Results",
+            data=result_text,
+            file_name="meeting_insights.txt",
+            mime="text/plain"
+        )
+

@@ -1,5 +1,5 @@
 streamlit
-pytube
+yt-dlp
 openai-whisper
 transformers
 spacy

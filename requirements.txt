@@ -2,7 +2,6 @@ streamlit
 yt-dlp
 openai-whisper
 transformers==4.41.2
-torch
+torch==2.2.2
 spacy==3.7.5
 sentencepiece
-ffmpeg-python

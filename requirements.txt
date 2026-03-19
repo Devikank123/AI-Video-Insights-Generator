@@ -1,7 +1,8 @@
 streamlit
 yt-dlp
 openai-whisper
-transformers
-spacy
+transformers==4.41.2
 torch
+spacy==3.7.5
+sentencepiece
 ffmpeg-python
